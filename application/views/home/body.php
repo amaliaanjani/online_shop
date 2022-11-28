@@ -17,17 +17,18 @@
             </div>
         </div>
     </div>
+    str_repeat('&nbsp;', 10);
     <!-- header top section start -->
     <!-- logo section start -->
-    <div class="logo_section">
+     <div class="logo_section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-1 col-sm-4">
-                    <div class="logo"><a href="index.html"><img src="<?php echo base_url() ?>assets/images/logo2.png" style="display:block; margin:auto;" ></a></div>
+                    <!-- <div class="logo"><a href="index.html"><img src="<?php echo base_url() ?>assets/images/logo2.png" style="display:block; margin:auto;" ></a></div> -->
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- logo section end -->
     <!-- header section start -->
     <div class="header_section">
@@ -63,7 +64,7 @@
                 </div>
                 <div class="header_box">
                     <div class="lang_box ">
-                        <a href="#" title="Language" class="nav-link" data-toggle="dropdown" aria-expanded="true">
+                        <!-- <a href="#" title="Language" class="nav-link" data-toggle="dropdown" aria-expanded="true">
                             <img src="<?php echo base_url() ?>assets/images/flag-uk.png" alt="flag" class="mr-2 " title="United Kingdom"> English <i class="fa fa-angle-down ml-2" aria-hidden="true"></i>
                         </a>
                         <div class="dropdown-menu ">
@@ -71,15 +72,15 @@
                                 <img src="<?php echo base_url() ?>assets/images/flag-france.png" class="mr-2" alt="flag">
                                 French
                             </a>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="login_menu">
                         <ul>
-                            <li><a href="#">
+                            <li><a href="#bunga">
                                     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                                     <span class="padding_10">Cart</span></a>
                             </li>
-                            <li><a href="#">
+                            <li><a href="http://localhost/wpu-login">
                                     <i class="fa fa-user" aria-hidden="true"></i>
                                     <span class="padding_10">Login</span></a>
                             </li>
@@ -558,7 +559,7 @@
 <!-- footer section start -->
 <div class="footer_section layout_padding">
     <div class="container">
-        <div class="footer_logo"><a href="index.html"><img src="assets/images/footer-logo.png"></a></div>
+        <!-- <div class="footer_logo"><a href="index.html"><img src="assets/images/footer-logo.png"></a></div> -->
         <div class="input_bt">
             <input type="text" class="mail_bt" placeholder="Your Email" name="Your Email">
             <span class="subscribe_bt" id="basic-addon2"><a href="#">Subscribe</a></span>
@@ -579,6 +580,6 @@
 <!-- copyright section start -->
 <div class="copyright_section">
     <div class="container">
-        <p class="copyright_text">© 2020 All Rights Reserved. Design by <a href="https://html.design">Free html Templates</a></p>
+        <p class="copyright_text">© 2022 All Rights Reserved. Design by Lily Florist</p>
     </div>
 </div>
